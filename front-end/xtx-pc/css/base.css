@@ -1,0 +1,55 @@
+/* 清除样式 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 统一文字和颜色 */
+body {
+  font: 16px/1.5 "Microsoft Yahei",
+    "Hiragino Sans GB", "Heiti SC", "WenQuanYi Microsoft Hei", sans-serif;
+  color: #333;
+}
+
+/* 去除列表默认样式 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 去除倾斜默认效果 */
+em,
+i {
+  font-style: normal;
+}
+
+/* 去除A标签默认下划线,变设置默认文字颜色 */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 设置IMG垂直对齐为居中,去除默认下间隙 */
+img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* 去除input默认样式 */
+input {
+  border: none;
+  outline: none;
+  color: #333;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
